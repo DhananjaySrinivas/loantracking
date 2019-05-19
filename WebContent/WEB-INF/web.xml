@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>loantracking.reg</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/cust</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>fire</servlet-name>
+		<servlet-class>loantracking.login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>fire</servlet-name>
+		<url-pattern>/login10</url-pattern>
+	</servlet-mapping>
+	 
+	 
+	
+	<servlet>
+		<servlet-name>hey</servlet-name>
+		<servlet-class>loantracking.officerlogin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>hey</servlet-name>
+		<url-pattern>/offdashboard.html</url-pattern>
+	</servlet-mapping>
+	
+	
+<servlet>
+		<servlet-name>hello</servlet-name>
+		<servlet-class>loantracking.malogin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>hello</servlet-name>
+		<url-pattern>/manager</url-pattern>
+	</servlet-mapping>
+	
+	
+<servlet>
+		<servlet-name>hell</servlet-name>
+		<servlet-class>loantracking.applyloan</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>hell</servlet-name>
+		<url-pattern>/apply</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
